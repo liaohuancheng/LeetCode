@@ -36,10 +36,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListNode.cs" />
     <Compile Include="No-26.cs" />
     <Compile Include="No-136.cs" />
     <Compile Include="No_11.cs" />
     <Compile Include="No_12.cs" />
+    <Compile Include="No_142.cs" />
+    <Compile Include="No_160.cs" />
     <Compile Include="No_167.cs" />
     <Compile Include="No_169.cs" />
     <Compile Include="No_3.cs" />
@@ -51,6 +54,7 @@
     <Compile Include="No_561.cs" />
     <Compile Include="No_581.cs" />
     <Compile Include="NO_6.cs" />
+    <Compile Include="No_67.cs" />
     <Compile Include="No_724.cs" />
     <Compile Include="No_747.cs" />
     <Compile Include="Test.cs" />
