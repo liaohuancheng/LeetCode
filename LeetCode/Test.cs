@@ -10,10 +10,20 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int[] z = new int[4]{ 2, 7, 11, 15 };
+            ListNode l1 = new ListNode(1);
+            ListNode l2 = new ListNode(2);
+            //l1.next = l2;
+            ListNode l3 = new ListNode(3);
+            l2.next = l3;
+            ListNode l4 = new ListNode(4);
+            l3.next = l4;
+            ListNode l5 = new ListNode(5);
+            l4.next = l5;
+            ListNode l6 = new ListNode(6);
+            l5.next = l6;
             Test t = new Test();
-            No_167 e = new No_167();
-            int[] a = e.TwoSum(z, 9);
+            No_203 e = new No_203();
+            e.RemoveElements(l1, 1);
             Console.WriteLine();
             Console.ReadKey();
         }
