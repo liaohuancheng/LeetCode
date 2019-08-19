@@ -10,7 +10,10 @@ namespace LeetCode
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
-            double ans = 0; 
+            int numLength = nums1.Length + nums2.Length;
+
+            double ans=0;
+
             return ans;  
         }
     }
