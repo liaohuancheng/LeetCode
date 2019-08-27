@@ -20,13 +20,10 @@ namespace LeetCode
             //l2.next = l3;
             //ListNode l4 = new ListNode(4);
             //l3.next = l4;
+            string[] s = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
-            
-
-
-
-            No_172 no_172 = new No_172();
-            Console.Write(no_172.TrailingZeroes(10));
+            GroupAnagram groupAnagram = new GroupAnagram();
+            Console.Write(groupAnagram.GroupAnagrams(s));
             Console.Read();
         }
     }

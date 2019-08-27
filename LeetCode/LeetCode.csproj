@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GroupAnagram.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="No-26.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="No_581.cs" />
     <Compile Include="NO_6.cs" />
     <Compile Include="No_63.cs" />
+    <Compile Include="No_67.cs" />
     <Compile Include="No_724.cs" />
     <Compile Include="No_747.cs" />
     <Compile Include="No_887.cs" />
